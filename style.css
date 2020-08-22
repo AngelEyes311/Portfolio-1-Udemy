@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Gotu&display=swap');
+
+@import url('https://coolors.co/6e7189-5b507a-cae8d5-3b6978-204051-ffdde2-ff7b9c');
+
+
+/* HEX
+color1: #6e7189;
+color2: #5b507a;
+color3: #cae8d5;
+color4: #3b6978;
+color5: #204051;
+color6: #f9d3e2;
+color7: #ff7b9c;
+*/
+
+
+/*
+#head-name {
+  color: #6e7189;
+  font-size: 46px;
+  font-family: 'Gutu', cursive;
+}
+
+#head-hr{
+  width: 550px;
+  height: 2px;
+  background-color: #cae8d5;
+  margin-bottom: 20px;
+
+}*/
+
+h4 {
+  color: #cae8d5;
+  font-size: 22px;
+  font-family: 'Gutu', cursive;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #3b6978;
+    margin: 75px auto 75px auto;
+
+
+
+}
+
+/* text-align MUST go inside a PARENT element, ex: div, header, body */
+/*
+header {
+  background-color: #3b6978;
+  text-align: center;
+  padding: 10px;
+}
+*/
+body {
+  background-color: #cae8d5;
+  font-family: 'Gutu', cursive;
+  text-align: center;
+
+}
+
+h1{
+    position: relative;
+    font-size: 110px;
+}
+
+.hi {
+  font-family: 'Charmonman', cursive;
+  font-size: 24px;
+  margin: 0 auto 0 auto;
+  color: #5b507a;
+  text-shadow: 7px 7px 5px #ffffff;
+
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #5b507a;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #204051;
+}
+
+.pro {
+  font-size: 20px;
+  padding-bottom: 60px;
+  padding-top: 0;
+
+}
+.pro2 {
+  font-size: 20px;
+  padding-bottom: 60px;
+  padding-top: 10px;
+  margin-right: 40%;
+}
+
+.pro3 {
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+}
+.pro4 {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+.top-container {
+    position: relative;
+    padding: 150px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 250px;
+  top: 170px;
+  height: 125px;
+
+}
+.cloud2 {
+  position: absolute;
+  left: 400px;
+  top: 750px;
+  height: 90px;
+
+}
+.cloud3 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  height: 90px;
+}
+
+.cloud4 {
+    position: relative;
+    top: 375px;
+    left: 250px;
+    height: 100px;
+}
+.mountain {
+    text-align: center;
+}
+.middle-cont {
+
+}
+.bottom-cont {
+    padding: 0;
+}
+.break {
+    height: 5px;
+    background-color: #3b6978;
+}
+
+.hr2 {
+    margin-top:120px;
+}
+.break2 {
+    height: 5px;
+    background-color: #ff7b9c;
+}
+
+.break3 {
+    height: 5px;
+    background-color: #f9d3e2
+    ;
+}
+
+hr {
+    height: 2px;
+    background-color: #3b6978;
+}
+
+.greenpc {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.harvard {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.edu {
+
+}
+
+#edu-row {
+            width: 50%;
+            line-height: 1;
+            margin: 50px auto 50px auto;
+            text-align: left;
+}
+
+.cloud5 {
+    height: 70px;
+}
+
+.contact-me {
+    position: relative;
+    right: 200px;
+
+}
+
+
+.bottom-container {
+
+}
+.btn {
+
+}
+
+.footer-link {
+
+
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #3b6978;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Gutu', cursive;
+}
+
+
+.btn {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7b9c), color-stop(1, #5b507a) );
+	background:-moz-linear-gradient( center top, #ff7b9c 5%, #5b507a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7b9c', endColorstr='#5b507a');
+	background-color:#ff7b9c;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:2px solid #3b6978;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:145px;
+	text-decoration:none;
+	text-align:center;
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5b507a), color-stop(1, #ff7b9c) );
+	background:-moz-linear-gradient( center top, #5b507a 5%, #ff7b9c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5b507a', endColorstr='#ff7b9c');
+	background-color:#5b507a;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
